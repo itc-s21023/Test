@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Test</string>
+    <string name="gender_female">WOMEN</string>
+    <string name="gender_male">MEN</string>
+    <string name="gender_selection">性別を選択してください</string>
+    <string name="ja_gender_female">女性</string>
+    <string name="ja_gender_male">男性</string>
 </resources>
