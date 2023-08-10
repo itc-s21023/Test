@@ -19,37 +19,38 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="性別を選択してください" />
+            android:text="@string/gender_selection" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:contentDescription="男性"
+            android:contentDescription="@string/ja_gender_male"
             android:src="@drawable/male_pictogram" />
 
         <RadioButton
             android:id="@+id/radioMale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="MEN" />
+            android:text="@string/gender_male" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:contentDescription="女性"
+            android:contentDescription="@string/ja_gender_female"
             android:src="@drawable/female_pictogram" />
 
         <RadioButton
             android:id="@+id/radioFemale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="WOMEN" />
+            android:text="@string/gender_female" />
 
         <Button
+            android:id="@+id/AppName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onRegisterClick"
-            android:text="登録" />
+            android:text="@string/app_name" />
     </LinearLayout>
 
 
